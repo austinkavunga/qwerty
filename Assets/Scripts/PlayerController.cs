@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,14 +12,25 @@ public class PlayerController : MonoBehaviour
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
+
+    [SerializeField] public static bool isRunning;
+    [SerializeField] public static bool sprintPressed;
     
-    public static bool isRunning;
 
     private void Awake()
     {
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        sprintPressed = false;
+        isRunning = false;
+
+
+        moveSpeed = 3f;
+
+        playerControls.Movement.Sprint.performed += ctx => ahhh();
+        playerControls.Movement.Sprint.canceled += ctx => nooo();
 
     }
 
@@ -30,11 +42,14 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         PlayerInput();
-        if (isRunning)
+
+
+
+        if (isRunning == true)
         {
             moveSpeed = 5f;
         }
-        else
+        else if (isRunning == false)
         {
             moveSpeed = 3f;
         }
@@ -62,4 +77,16 @@ public class PlayerController : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     }
+
+    private void ahhh()
+    {
+        sprintPressed = true;
+    }
+
+    private void nooo()
+    {
+        sprintPressed = false;
+    }
+
 }
+

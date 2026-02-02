@@ -14,17 +14,20 @@ public class PlayerSprint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftShift) && stamina > 0)
+
+
+        if (PlayerController.sprintPressed == true && stamina > 0)
         {
             PlayerController.isRunning = true;
             stamina -= 0.5f;
+
         }
         else
         {
             PlayerController.isRunning = false;
         }
         
-        if (!Input.GetKey(KeyCode.LeftShift) && stamina < totalStamina)
+        if (PlayerController.isRunning == false && stamina < totalStamina)
         {
             stamina += 0.25f;
         }
