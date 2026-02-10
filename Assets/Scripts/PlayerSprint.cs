@@ -19,7 +19,7 @@ public class PlayerSprint : MonoBehaviour
         if (PlayerController.sprintPressed == true && stamina > 0)
         {
             PlayerController.isRunning = true;
-            stamina -= 0.5f;
+            stamina -= 0.5f*Time.timeScale;
 
         }
         else
@@ -29,7 +29,7 @@ public class PlayerSprint : MonoBehaviour
         
         if (PlayerController.isRunning == false && stamina < totalStamina)
         {
-            stamina += 0.25f;
+            stamina += 0.25f*Time.timeScale;
         }
 
         if (staminaBar != null)

@@ -15,9 +15,11 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] public static bool isRunning;
     [SerializeField] public static bool sprintPressed;
+
+    public static bool tabPressed;
     
 
-    private void Awake()
+    private void Awake() 
     {
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
@@ -29,8 +31,14 @@ public class PlayerController : MonoBehaviour
 
         moveSpeed = 3f;
 
-        playerControls.Movement.Sprint.performed += ctx => ahhh();
-        playerControls.Movement.Sprint.canceled += ctx => nooo();
+        playerControls.Movement.Sprint.performed += ctx => sprintPressed = true;
+        playerControls.Movement.Sprint.canceled += ctx => sprintPressed = false;
+
+        playerControls.Inventory.InventoryAccess.performed += ctx => tabPressed = true;
+
+        playerControls.Inventory.InventoryAccess.performed += ctx => tabPressed = true;
+
+
 
     }
 
@@ -76,16 +84,6 @@ public class PlayerController : MonoBehaviour
     private void Move()
     {
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
-    }
-
-    private void ahhh()
-    {
-        sprintPressed = true;
-    }
-
-    private void nooo()
-    {
-        sprintPressed = false;
     }
 
 }
