@@ -4,6 +4,7 @@ public class InventoryManager : MonoBehaviour
 {
     
     public GameObject InventoryMenu;
+    public GameObject HotbarOn;
     public bool inventoryPressed;
     private bool menuActivated;
     public ItemSlot[] itemSlot;
@@ -12,6 +13,7 @@ public class InventoryManager : MonoBehaviour
     private void Awake()
     {
         inventoryPressed = false;
+        HotbarOn.SetActive(true);
 
     }
     private void toggleInventory()
@@ -39,11 +41,15 @@ public class InventoryManager : MonoBehaviour
         {
             Time.timeScale = 1;
             InventoryMenu.SetActive(false);
+            HotbarOn.SetActive(true);
+
         }
         else if (inventoryPressed == true)
         {
             Time.timeScale = 0;
             InventoryMenu.SetActive(true);
+            HotbarOn.SetActive(false);
+
         }
     }
 
