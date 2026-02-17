@@ -145,8 +145,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ai.toolkit": {
-      "version": "1.0.0-pre.20",
-      "depth": 1,
+      "version": "1.6.0-pre.3",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
