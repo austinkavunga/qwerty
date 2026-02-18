@@ -12,17 +12,24 @@ public class Interactor : MonoBehaviour
 
     private void Update()
     {
-        var colliders = Physics.OverlapSphere(InteractionPoint.position, InteractionPointRadius, InteractionLayer); // this line of code checks for colliders within a certain radius of the interaction point, and only considers those that are on the specified interaction layer.
+        // Use 2D physics overlap since your colliders are 2D BoxCollider2D
+        Collider2D[] colliders = Physics2D.OverlapCircleAll((Vector2)InteractionPoint.position, InteractionPointRadius, InteractionLayer);
 
         if (Keyboard.current.eKey.wasPressedThisFrame)
         {
+            Debug.Log("E is pressed");
             for (int i = 0; i < colliders.Length; i++)
             {
                 var interactable = colliders[i].GetComponent<IInteractable>();
 
                 if (interactable != null)
                 {
-                    StartInteraction(interactable);
+                    StartInteraction(interactable); 
+                    Debug.Log("items are interactable but failed for some reason :( ");
+                }
+                else
+                {
+                    Debug.Log("no item are interactable");
                 }
             }
         }
