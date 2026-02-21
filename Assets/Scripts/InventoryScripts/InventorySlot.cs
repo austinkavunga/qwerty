@@ -1,9 +1,11 @@
+using System;
 using UnityEngine;
 
 [System.Serializable]
-public class InventorySlot 
+public class InventorySlot : ISerializationCallbackReceiver
 {
-    [SerializeField] private InventoryItemData itemData;
+    [NonSerialized] private InventoryItemData itemData;
+    [SerializeField] private int itemID = -1;
     [SerializeField] private int stackSize;
 
     public InventoryItemData ItemData => itemData;
@@ -12,6 +14,7 @@ public class InventorySlot
     public InventorySlot(InventoryItemData source, int amount)
     {
         itemData = source;
+        itemID = itemData.ID;
         stackSize = amount;
     }
 
@@ -23,6 +26,7 @@ public class InventorySlot
     public void ClearSlot()
     {
         itemData = null;
+        itemID = -1;
         stackSize = -1;
     }
 
@@ -35,6 +39,7 @@ public class InventorySlot
         else
         {
             itemData = invSlot.ItemData;
+            itemID = itemData.ID;
             stackSize = 0;
             AddToStack(invSlot.StackSize);
         }
@@ -43,6 +48,7 @@ public class InventorySlot
     public void UpdateInventorySlot(InventoryItemData data, int amount)
     {
         itemData = data;
+        itemID = itemData.ID;
         stackSize = amount;
     }
 
@@ -89,5 +95,21 @@ public class InventorySlot
         return true;
         
         
+    }
+
+    public void OnBeforeSerialize()
+    {
+
+    }
+
+    public void OnAfterDeserialize()
+    {
+        if(itemID == -1)
+        {
+            return;
+        }
+
+        var db = Resources.Load<Database>(path:"Database");
+        itemData = db.GetItem(itemID);
     }
 }

@@ -11,18 +11,31 @@ public class MouseItemData : MonoBehaviour
     public Image ItemSprite;
     public TextMeshProUGUI ItemCount;
     public InventorySlot AssignedInventorySlot;
+    [SerializeField] private float dropOffset = 1f;
+    private Transform playerTransform;
 
     public void Awake()
     {
         ItemSprite.color = Color.clear;
+        ItemSprite.preserveAspect = true;
         ItemCount.text = " ";
+        playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        if(playerTransform == null)
+        {
+            Debug.LogWarning($"No player transform found for {this.gameObject}");
+        }
     }
 
     public void UpdateMouseSlot(InventorySlot invSlot)
     {
         AssignedInventorySlot.AssignItem(invSlot);
-        ItemSprite.sprite = invSlot.ItemData.Icon;
-        ItemCount.text = invSlot.StackSize.ToString();
+        UpdateMouseSlot();
+    }
+
+    public void UpdateMouseSlot()
+    {
+        ItemSprite.sprite = AssignedInventorySlot.ItemData.Icon;
+        ItemCount.text = AssignedInventorySlot.StackSize.ToString();
         ItemSprite.color = Color.white;
     }
 
@@ -34,7 +47,19 @@ public class MouseItemData : MonoBehaviour
 
             if(Mouse.current.leftButton.wasPressedThisFrame && !IsPointerOverUIObject())
             {
-                ClearSlot();
+                if (AssignedInventorySlot.ItemData.ItemPrefab != null)
+                    Instantiate(AssignedInventorySlot.ItemData.ItemPrefab, playerTransform.position + playerTransform.right * dropOffset, Quaternion.identity);
+                
+                if(AssignedInventorySlot.StackSize > 1)
+                {
+                    AssignedInventorySlot.AddToStack(-1);
+                    UpdateMouseSlot();
+                }
+                else
+                {
+                    ClearSlot();
+                }
+                    
             }
         }
         

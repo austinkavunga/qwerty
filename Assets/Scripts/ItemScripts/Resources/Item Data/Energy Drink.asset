@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddad6146c494bee488a5cf933e12012f, type: 3}
-  m_Name: Bandage
+  m_Name: Energy Drink
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
-  ID: 0
-  DisplayName: Bandage
-  Description: This is a bandage
-  Icon: {fileID: 1462799768519014029, guid: c62165d1b7134a64ba6604c0560f26a0, type: 3}
-  MaxStackSize: 3
+  ID: 1
+  DisplayName: Energy Drink
+  Description: This is an energy drink
+  Icon: {fileID: -7213742777133032008, guid: c068baa7847079b41950316226399cac, type: 3}
+  MaxStackSize: 1
+  ItemPrefab: {fileID: 458913626779266926, guid: c10ec4fdaa9b34b4c83df9eed491bdfc, type: 3}

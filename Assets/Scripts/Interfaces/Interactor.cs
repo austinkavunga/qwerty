@@ -13,11 +13,16 @@ public class Interactor : MonoBehaviour
     private void Update()
     {
         // Use 2D physics overlap since your colliders are 2D BoxCollider2D
-        Collider2D[] colliders = Physics2D.OverlapCircleAll((Vector2)InteractionPoint.position, InteractionPointRadius, InteractionLayer);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(InteractionPoint.position,InteractionPointRadius, InteractionLayer.value);
 
         if (Keyboard.current.eKey.wasPressedThisFrame)
         {
             Debug.Log("E is pressed");
+            if (colliders.Length == 0) 
+            {
+                Debug.Log("No interactable items nearby.");
+                return;
+            }
             for (int i = 0; i < colliders.Length; i++)
             {
                 var interactable = colliders[i].GetComponent<IInteractable>();

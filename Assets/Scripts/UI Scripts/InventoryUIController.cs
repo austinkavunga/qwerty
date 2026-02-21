@@ -4,17 +4,23 @@ using UnityEngine.InputSystem;
 public class InventoryUIController : MonoBehaviour
 {
     public DynamicInventoryDisplay inventoryPanel;
+    public DynamicInventoryDisplay playerBackpackPanel;
+
     private void Awake()
     {
         inventoryPanel.gameObject.SetActive(false);
+        playerBackpackPanel.gameObject.SetActive(false);
     }
     private void OnEnable()
     {
        InventoryHolder.OnDynamicInventoryDisplayRequested += DisplayInventory;
+        PlayerInventoryHolder.OnPlayerBackpackDisplayRequested += DisplayPlayerBackpack;
     }
     private void OnDisable()
     {
         InventoryHolder.OnDynamicInventoryDisplayRequested -= DisplayInventory;
+        PlayerInventoryHolder.OnPlayerBackpackDisplayRequested -= DisplayPlayerBackpack;
+
     }
     void Update()
     {
@@ -22,13 +28,23 @@ public class InventoryUIController : MonoBehaviour
         if(inventoryPanel.gameObject.activeInHierarchy && Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             inventoryPanel.gameObject.SetActive(false);
-        } 
-        
+        }
+        if (playerBackpackPanel.gameObject.activeInHierarchy && Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            playerBackpackPanel.gameObject.SetActive(false);
+        }
+
     }
 
-    void DisplayInventory(InventorySystem invToDisplay)
+    void DisplayInventory(InventorySystem invToDisplay, int offset)
     {
         inventoryPanel.gameObject.SetActive(true);
-        inventoryPanel.RefreshDynamicInventory(invToDisplay);
+        inventoryPanel.RefreshDynamicInventory(invToDisplay, offset);
+    }
+
+    void DisplayPlayerBackpack(InventorySystem invToDisplay, int offset)
+    {
+        playerBackpackPanel.gameObject.SetActive(true);
+        playerBackpackPanel.RefreshDynamicInventory(invToDisplay, offset);
     }
 }

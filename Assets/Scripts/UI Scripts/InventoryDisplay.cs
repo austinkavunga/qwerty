@@ -16,7 +16,7 @@ public abstract class InventoryDisplay : MonoBehaviour
     {
         
     }
-    public abstract void AssignSlot(InventorySystem invToDisplay);
+    public abstract void AssignSlot(InventorySystem invToDisplay, int offset);
 
     protected virtual void UpdateSlot(InventorySlot updatedSlot)
     { 
@@ -34,7 +34,7 @@ public abstract class InventoryDisplay : MonoBehaviour
         // if player is holding shift ? split stack
         // clicked slot has an item - mouse doesnt have an item - pick up item.
 
-        bool isShiftPressed = Keyboard.current.leftShiftKey.isPressed || Keyboard.current.rightShiftKey.isPressed;
+        bool isShiftPressed = Keyboard.current.leftCtrlKey.isPressed;
 
         if (clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem.AssignedInventorySlot.ItemData == null)
         {
