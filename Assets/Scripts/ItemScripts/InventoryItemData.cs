@@ -9,4 +9,9 @@ public class InventoryItemData : ScriptableObject
     public Sprite Icon;
     public int MaxStackSize;
     public GameObject ItemPrefab;
+
+    public void UseItem()
+    {
+        Debug.Log($"Using {DisplayName}");
+    }
 }

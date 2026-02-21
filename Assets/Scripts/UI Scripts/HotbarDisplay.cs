@@ -1,0 +1,119 @@
+using UnityEngine;
+using UnityEngine.InputSystem;  
+
+public class HotbarDisplay : StaticInventoryDisplay
+{
+    private int maxIndexSize = 9;
+    private int currentIndex = 0;
+
+    private PlayerControls playerControls;
+
+    private void Awake()
+    {
+        playerControls = new PlayerControls();
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+
+        currentIndex = 0;
+        maxIndexSize = slots.Length - 1;
+
+        slots[currentIndex].ToggleHighlight();
+    }
+
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        playerControls.Enable();
+
+        playerControls.HotbarActions.Hotbar1.performed += Hotbar1;
+        playerControls.HotbarActions.Hotbar2.performed += Hotbar2;
+        playerControls.HotbarActions.Hotbar3.performed += Hotbar3;
+        playerControls.HotbarActions.UseItem.performed += UseItem;
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        playerControls.Disable();
+
+        playerControls.HotbarActions.Hotbar1.performed -= Hotbar1;
+        playerControls.HotbarActions.Hotbar2.performed -= Hotbar2;
+        playerControls.HotbarActions.Hotbar3.performed -= Hotbar3;
+        playerControls.HotbarActions.UseItem.performed -= UseItem;
+    }
+
+    #region Hotbar Select Methods
+    private void Hotbar1(InputAction.CallbackContext obj)
+    {
+        SetIndex(0);
+        Debug.Log("1 was pressed");
+    }
+
+    private void Hotbar2(InputAction.CallbackContext obj)
+    {
+        SetIndex(1);
+    }
+
+    private void Hotbar3(InputAction.CallbackContext obj)
+    {
+        SetIndex(2);
+    }
+
+    #endregion
+    private void Update()
+    {
+        if (playerControls.HotbarActions.MouseWheel.ReadValue<float>() > 0.1f)
+        {
+            ChangeIndex(1);
+        }
+        if (playerControls.HotbarActions.MouseWheel.ReadValue<float>() < -0.1f)
+        {
+            ChangeIndex(-1);
+        }
+    }
+
+    private void UseItem(InputAction.CallbackContext obj)
+    {
+        if (slots[currentIndex].AssignedInventorySlot.ItemData != null)
+        {
+            slots[currentIndex].AssignedInventorySlot.ItemData.UseItem();
+        }
+    }
+
+
+    private void ChangeIndex(int direction)
+    {
+        slots[currentIndex].ToggleHighlight();
+        currentIndex += direction;
+
+        if(currentIndex > maxIndexSize)
+        {
+            currentIndex = 0;
+        }
+        else if (currentIndex < 0)
+        {
+            currentIndex = maxIndexSize;
+        }
+
+        slots[currentIndex].ToggleHighlight();
+    }
+    private void SetIndex(int newIndex)
+    {
+        slots[currentIndex].ToggleHighlight();
+        
+        if(newIndex < 0)
+        {
+            currentIndex = 0;
+        }
+        if(newIndex > maxIndexSize)
+        {
+            newIndex = maxIndexSize;
+        }
+        currentIndex = newIndex;
+        slots[currentIndex].ToggleHighlight();
+    }
+
+}

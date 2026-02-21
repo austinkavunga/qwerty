@@ -7517,6 +7517,7 @@ GameObject:
   - component: {fileID: 1588609866}
   - component: {fileID: 1588609865}
   - component: {fileID: 1588609864}
+  - component: {fileID: 1588609869}
   - component: {fileID: 1588609867}
   - component: {fileID: 1588609868}
   m_Layer: 5
@@ -7607,7 +7608,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1588609861}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 658218e176d67b94694f17de5fe5830c, type: 3}
   m_Name: 
@@ -7644,6 +7645,21 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &1588609869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588609861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63d57ec49a6d0b4d9281198b8f2ca57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HotbarDisplay
+  mouseInventoryItem: {fileID: 1371913702}
+  inventoryHolder: {fileID: 804706295}
+  slots: []
 --- !u!1001 &1592208369
 PrefabInstance:
   m_ObjectHideFlags: 0

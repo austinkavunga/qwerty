@@ -7,6 +7,7 @@ public class InventorySlot_UI : MonoBehaviour
     [SerializeField] private Image itemSprite;
     [SerializeField] private TextMeshProUGUI itemCount;
     [SerializeField] private InventorySlot assignedInventorySlot;
+    [SerializeField] private GameObject slotHighlight;
 
     private Button button;
 
@@ -51,6 +52,11 @@ public class InventorySlot_UI : MonoBehaviour
             ClearSlot();
         }
 
+    }
+
+    public void ToggleHighlight()
+    {
+        slotHighlight.SetActive(!slotHighlight.activeInHierarchy);
     }
     public void UpdateUISlot()
     {

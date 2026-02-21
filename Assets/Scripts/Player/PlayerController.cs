@@ -15,22 +15,22 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] public static bool isRunning;
     [SerializeField] public static bool sprintButtonPressed;
-    
+
 
     private void Awake()
     {
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        
+
         sprintButtonPressed = false;
         isRunning = false;
 
 
         moveSpeed = 3f;
 
-        playerControls.Movement.Sprint.performed += ctx => ahhh();
-        playerControls.Movement.Sprint.canceled += ctx => nooo();
+        playerControls.Movement.Sprint.performed += ctx => sprintButtonPressed = true;
+        playerControls.Movement.Sprint.canceled += ctx => sprintButtonPressed = false;
 
     }
 
@@ -39,6 +39,10 @@ public class PlayerController : MonoBehaviour
         playerControls.Enable();
     }
 
+    private void OnDisable()
+    {
+        playerControls.Disable();
+    }
     private void Update()
     {
         PlayerInput();
@@ -77,16 +81,5 @@ public class PlayerController : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
     }
-
-    private void ahhh()
-    {
-        sprintButtonPressed = true;
-    }
-
-    private void nooo()
-    {
-        sprintButtonPressed = false;
-    }
-
 }
 
