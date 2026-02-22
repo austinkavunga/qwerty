@@ -2396,8 +2396,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804706284}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.090026855, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7517,9 +7517,9 @@ GameObject:
   - component: {fileID: 1588609866}
   - component: {fileID: 1588609865}
   - component: {fileID: 1588609864}
-  - component: {fileID: 1588609869}
   - component: {fileID: 1588609867}
   - component: {fileID: 1588609868}
+  - component: {fileID: 1588609869}
   m_Layer: 5
   m_Name: PlayerHotbar
   m_TagString: Untagged
@@ -7659,7 +7659,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HotbarDisplay
   mouseInventoryItem: {fileID: 1371913702}
   inventoryHolder: {fileID: 804706295}
-  slots: []
+  slots:
+  - {fileID: 142279016080219859}
+  - {fileID: 1599070860}
+  - {fileID: 2147088176}
 --- !u!1001 &1592208369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8292,7 +8295,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
-  - {fileID: 804706288}
   - {fileID: 2140839453}
   - {fileID: 999182441}
   - {fileID: 1480117903}
@@ -8300,3 +8302,4 @@ SceneRoots:
   - {fileID: 1567046041}
   - {fileID: 643276255}
   - {fileID: 966655725}
+  - {fileID: 804706288}

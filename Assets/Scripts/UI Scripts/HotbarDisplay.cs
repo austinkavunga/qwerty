@@ -1,11 +1,10 @@
 using UnityEngine;
 using UnityEngine.InputSystem;  
 
-public class HotbarDisplay : StaticInventoryDisplay
+public class HotbarDisplay : StaticInventoryDisplay 
 {
     private int maxIndexSize = 9;
     private int currentIndex = 0;
-
     private PlayerControls playerControls;
 
     private void Awake()
@@ -26,19 +25,22 @@ public class HotbarDisplay : StaticInventoryDisplay
     protected override void OnEnable()
     {
         base.OnEnable();
+
         playerControls.Enable();
 
         playerControls.HotbarActions.Hotbar1.performed += Hotbar1;
         playerControls.HotbarActions.Hotbar2.performed += Hotbar2;
         playerControls.HotbarActions.Hotbar3.performed += Hotbar3;
         playerControls.HotbarActions.UseItem.performed += UseItem;
+
     }
 
     protected override void OnDisable()
     {
         base.OnDisable();
-        playerControls.Disable();
 
+        playerControls.Disable();
+        
         playerControls.HotbarActions.Hotbar1.performed -= Hotbar1;
         playerControls.HotbarActions.Hotbar2.performed -= Hotbar2;
         playerControls.HotbarActions.Hotbar3.performed -= Hotbar3;
@@ -49,7 +51,6 @@ public class HotbarDisplay : StaticInventoryDisplay
     private void Hotbar1(InputAction.CallbackContext obj)
     {
         SetIndex(0);
-        Debug.Log("1 was pressed");
     }
 
     private void Hotbar2(InputAction.CallbackContext obj)
@@ -65,21 +66,34 @@ public class HotbarDisplay : StaticInventoryDisplay
     #endregion
     private void Update()
     {
-        if (playerControls.HotbarActions.MouseWheel.ReadValue<float>() > 0.1f)
+        if (playerControls.HotbarActions.MouseWheel.ReadValue<float>() < 0.1f)
         {
             ChangeIndex(1);
         }
-        if (playerControls.HotbarActions.MouseWheel.ReadValue<float>() < -0.1f)
+        if (playerControls.HotbarActions.MouseWheel.ReadValue<float>() > -0.1f)
         {
             ChangeIndex(-1);
         }
+
     }
 
     private void UseItem(InputAction.CallbackContext obj)
     {
-        if (slots[currentIndex].AssignedInventorySlot.ItemData != null)
+        if (slots[currentIndex].AssignedInventorySlot.ItemData != null && slots[currentIndex].AssignedInventorySlot.StackSize >= 1)
         {
-            slots[currentIndex].AssignedInventorySlot.ItemData.UseItem();
+            if (slots[currentIndex].AssignedInventorySlot.StackSize == 1)
+            {
+                slots[currentIndex].AssignedInventorySlot.ItemData.UseItem();
+                slots[currentIndex].AssignedInventorySlot.ClearSlot();
+                slots[currentIndex].UpdateUISlot();
+            }
+            else if (slots[currentIndex].AssignedInventorySlot.StackSize > 1)
+            {
+                slots[currentIndex].AssignedInventorySlot.ItemData.UseItem();
+                slots[currentIndex].AssignedInventorySlot.stackSize -= 1;
+                slots[currentIndex].AssignedInventorySlot.UpdateInventorySlot(slots[currentIndex].AssignedInventorySlot.itemData, slots[currentIndex].AssignedInventorySlot.stackSize);
+                slots[currentIndex].UpdateUISlot();
+            }
         }
     }
 

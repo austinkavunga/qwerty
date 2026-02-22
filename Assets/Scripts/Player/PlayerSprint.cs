@@ -11,7 +11,6 @@ public class PlayerSprint : MonoBehaviour
         stamina = totalStamina;
     }
 
-    // Update is called once per frame
     void Update()
     {
 

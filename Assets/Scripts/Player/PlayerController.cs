@@ -1,20 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using UnityEditor.ShaderGraph;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 1f;
 
-    private PlayerControls playerControls;
+    public static PlayerControls playerControls;
+
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
 
     [SerializeField] public static bool isRunning;
     [SerializeField] public static bool sprintButtonPressed;
+
+
 
 
     private void Awake()
@@ -31,7 +36,6 @@ public class PlayerController : MonoBehaviour
 
         playerControls.Movement.Sprint.performed += ctx => sprintButtonPressed = true;
         playerControls.Movement.Sprint.canceled += ctx => sprintButtonPressed = false;
-
     }
 
     private void OnEnable()

@@ -4,9 +4,9 @@ using UnityEngine;
 [System.Serializable]
 public class InventorySlot : ISerializationCallbackReceiver
 {
-    [NonSerialized] private InventoryItemData itemData;
+    [NonSerialized] public InventoryItemData itemData;
     [SerializeField] private int itemID = -1;
-    [SerializeField] private int stackSize;
+    [SerializeField] public int stackSize;
 
     public InventoryItemData ItemData => itemData;
     public int StackSize => stackSize;
