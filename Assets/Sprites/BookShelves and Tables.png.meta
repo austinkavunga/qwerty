@@ -1,0 +1,7320 @@
+fileFormatVersion: 2
+guid: f0e32633c4fbd0043af9b8486ba2d221
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1076630955345183905
+    second: BookShelves and Tables_0
+  - first:
+      213: 4280175559501082203
+    second: BookShelves and Tables_1
+  - first:
+      213: -3602062257223582731
+    second: BookShelves and Tables_2
+  - first:
+      213: -8009779058021335272
+    second: BookShelves and Tables_3
+  - first:
+      213: 7421517298224677592
+    second: BookShelves and Tables_4
+  - first:
+      213: -1638116774771706680
+    second: BookShelves and Tables_5
+  - first:
+      213: -7924672017273011195
+    second: BookShelves and Tables_6
+  - first:
+      213: -767701250383897895
+    second: BookShelves and Tables_7
+  - first:
+      213: 1868183936486074778
+    second: BookShelves and Tables_8
+  - first:
+      213: 2557754609092078413
+    second: BookShelves and Tables_9
+  - first:
+      213: -3100051922587702279
+    second: BookShelves and Tables_10
+  - first:
+      213: 8017452015969098419
+    second: BookShelves and Tables_11
+  - first:
+      213: -6731943340046917237
+    second: BookShelves and Tables_12
+  - first:
+      213: 4448749761301897587
+    second: BookShelves and Tables_13
+  - first:
+      213: -2039521188972654253
+    second: BookShelves and Tables_14
+  - first:
+      213: -6621782829597090822
+    second: BookShelves and Tables_15
+  - first:
+      213: -6980151286167533366
+    second: BookShelves and Tables_16
+  - first:
+      213: -5429585646797997681
+    second: BookShelves and Tables_17
+  - first:
+      213: 6432765103052741387
+    second: BookShelves and Tables_18
+  - first:
+      213: -679427284628363963
+    second: BookShelves and Tables_19
+  - first:
+      213: -1295924016941413231
+    second: BookShelves and Tables_20
+  - first:
+      213: -3994357067157852785
+    second: BookShelves and Tables_21
+  - first:
+      213: -5644832320366611110
+    second: BookShelves and Tables_22
+  - first:
+      213: 296919215167933344
+    second: BookShelves and Tables_23
+  - first:
+      213: -3285366532792540259
+    second: BookShelves and Tables_24
+  - first:
+      213: -4219133739566711469
+    second: BookShelves and Tables_25
+  - first:
+      213: -8444491439287024606
+    second: BookShelves and Tables_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BookShelves and Tables_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bf570b9d90f01f0800000000000000
+      internalID: -1076630955345183905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eee587efc366b30800000000000000
+      internalID: 4280175559501082203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbb85b2677e20ec0800000000000000
+      internalID: -3602062257223582731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f7645626c87d090800000000000000
+      internalID: -8009779058021335272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2491f69a68ef660800000000000000
+      internalID: 7421517298224677592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4bf13f87d3449e0800000000000000
+      internalID: -1638116774771706680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504c6f879c8e50290800000000000000
+      internalID: -7924672017273011195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da9e3db7c39855f0800000000000000
+      internalID: -767701250383897895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99e755646f1de910800000000000000
+      internalID: 1868183936486074778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b2d81f348fe7320800000000000000
+      internalID: 2557754609092078413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fba4e083376af4d0800000000000000
+      internalID: -3100051922587702279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bad3975126b34f60800000000000000
+      internalID: 8017452015969098419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81627813355392a0800000000000000
+      internalID: -6731943340046917237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371e00166522dbd30800000000000000
+      internalID: 4448749761301897587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3511763d84a22b3e0800000000000000
+      internalID: -2039521188972654253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb9516a993ba14a0800000000000000
+      internalID: -6621782829597090822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac88f7d3365812f90800000000000000
+      internalID: -6980151286167533366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89bb051f9c36a4b0800000000000000
+      internalID: -5429585646797997681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bdcfa67c5c54950800000000000000
+      internalID: 6432765103052741387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545a4010c703296f0800000000000000
+      internalID: -679427284628363963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c4f4209f3f30ee0800000000000000
+      internalID: -1295924016941413231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d2cf119613198c0800000000000000
+      internalID: -3994357067157852785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5577e789e689a1b0800000000000000
+      internalID: -5644832320366611110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_23
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab821bf37ede1400800000000000000
+      internalID: 296919215167933344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93a1f78b880862d0800000000000000
+      internalID: -3285366532792540259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35db241c730a275c0800000000000000
+      internalID: -4219133739566711469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224487cd6c32fca80800000000000000
+      internalID: -8444491439287024606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8b9bea7428c284b83f328ab4747588
+      internalID: 1278659367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd18c854bac805468336128553a64fa
+      internalID: 1045449098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_29
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969d81ccf67b7714680989c88b61c388
+      internalID: -467743524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b929191a6c2424f8cb4d4bedbc10e1
+      internalID: -74566653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bd6821e96a96544b56872cd79f2778
+      internalID: 1620798072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_32
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 315
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31729e856d0fa2e4d904a32d267beeb9
+      internalID: 1083072530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd8ac7e1e0298c46bd67bc81c2d8774
+      internalID: -1219938579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135bad765cd9da540bcbc26c4b08c202
+      internalID: 626136316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837943b2e6d193e4e98488213d00697c
+      internalID: -1818104077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9073b5e76ef864899727138d7f29c2
+      internalID: -1090220187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff3f2b55ff3e3b48ad74e130d72bfb2
+      internalID: -1804821296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6342db93816b9b940b57df18b65a1161
+      internalID: 1868505645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be37441735fab94a97174bc034100a7
+      internalID: 1730645433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc580c29acf49284b89c8b3a406afe53
+      internalID: -15396062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c57020de97e62e4c80e9ca83a7b2c13
+      internalID: 1394066273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ad04dc25f5c784eb99cf0f0638be25
+      internalID: 1367876919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ae3eb1ae0b80949ae749955002617d
+      internalID: -821816648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7ecb40578a298479140b5b433956d3
+      internalID: 1857344142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fa37e672670ec4495b338af0629a8c
+      internalID: -318202310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_46
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed21e1fac49596f46ac6bdba043012a4
+      internalID: -1617374572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4201a5bbbada4ac41ba81e3a9109b357
+      internalID: 1059844675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_48
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bcf239c4c6153458f075d874a0fed2
+      internalID: -943221536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7c252f510807c4dbfc09283aa6c419
+      internalID: -1223342142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_50
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554c292a8611c5d408494139dffd3a7c
+      internalID: 2006403932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cf2906471ebcc42a7b469d5ce7a209
+      internalID: 1289826589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_52
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8079f82122624b549833587fb37d993e
+      internalID: -2038392972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940cb19724b28fb4bb89de6a758b0c79
+      internalID: 1278282791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_54
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e44076183e07714c9cf8884c504ae1d
+      internalID: -130071812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdf47d037f180348b3da00ea873fa55
+      internalID: 359261589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_56
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f62780b5dbd434d93b4b42ca9e3261
+      internalID: 1410804782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7c911c9519f764b8bfa8e8fd141cca
+      internalID: 955453220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_58
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b37da32322fbe4eb950a4fc2cddfe4
+      internalID: -1230340986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14e54c8ca08ab249ac7c115d1f0c240
+      internalID: 699059656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_60
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b44d6af5674045878929243f87b15
+      internalID: 51212905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66a44af77b92bf4684f1b959d922fd5
+      internalID: 1618035372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a3862d00570194ea2164f1d9c2aa5f
+      internalID: -377193121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_63
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0f834ddfc0b3f4e884dc597b169793
+      internalID: -1765327919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c611546565b3cb54b8171ebabb1b67ce
+      internalID: 618264238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdac2cfdbaf3d7147bdd55a24be40d7f
+      internalID: 1682009928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb26792ef34f2b40b4410e370366a07
+      internalID: 1778493442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a14013a30fa7a4c8d2febde05c0068
+      internalID: 551068473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817f1e37d0c50cb41a05bd7fc5cab8d5
+      internalID: 835078412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_69
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109ab5d360c00d74d8165231cb5defb6
+      internalID: -1898152282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_70
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb4eea7d9b557f45ac8dfa4a69fffe0
+      internalID: -573588412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_71
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be88a6b9f9acc84ca53edd4eb7372dd
+      internalID: -19089663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175eac93e3d81b94db8f4b08d53214de
+      internalID: -426735089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_73
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcb444831b88ef4399d476622c3b08b
+      internalID: -1515244584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022c37735f1eddf4ea5432ae88121795
+      internalID: -1550301829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec37bffee2a5fd14d814889840c51d5d
+      internalID: 964362485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03af5b510bc63f2418f7ad86ae207797
+      internalID: 180465703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_77
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e514aaf8dbd994b9b11e964de3421c
+      internalID: 1758755039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e106661e9988db7478edd351a70272c6
+      internalID: 1371383294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_79
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87e308848e37d34681e336953ace38f
+      internalID: 1189910035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_80
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208a79d8b4b115a408e1ea41b8642973
+      internalID: -1004264078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_81
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7ed717585873942af54a9442f68209
+      internalID: 696464079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c961ffe1953f494084cf8c185e43747
+      internalID: -436361912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_83
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db1287eef54c5e44bf5786523ae75c6
+      internalID: -1493435559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d40a1a8270cc7b4b941e7aa8bd7cfa1
+      internalID: -1461638806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_85
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a7ef1fac83ec041a7b3453585058ef
+      internalID: 1999976961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9368228140c9ae946b23ab768eae93e5
+      internalID: 358854519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_87
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fd24b8bdf0d594fac4b39aa720bdbe
+      internalID: 610822227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_88
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34be903f1f596d34cb3aca913dd82180
+      internalID: -2088169239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_89
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6caf71271729b76468c0562a155715cd
+      internalID: -1049499360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b6c62af9f58e940b121360801a0195
+      internalID: -737364301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_91
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72079d0f8301ee34697e2c246ad97ba8
+      internalID: -265163109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_92
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f77d9d9b940484d9aea3dc5e94496d
+      internalID: 427932586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e485c3779c9ac174eaecee18e290b8b3
+      internalID: -2038710825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_94
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4354f99f4d9365a49941159b8d146050
+      internalID: -1619825331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_95
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717221608f9a74740a00fb3f123ffd2e
+      internalID: -1647574646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_96
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665d685dbc0ba1a45b5d91484823094d
+      internalID: -873112064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395a758e961648743b150d1a511a515f
+      internalID: 1757205156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_98
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdb782221874394ea6bd44048392e54
+      internalID: -779194254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb0e6d6aef4a414f8eb5685264a2bfa
+      internalID: -1522851327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c775d1d4fc9725d44901651b48639585
+      internalID: 508723219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_101
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3de629005bd1f4eb9b3eff44d9d464
+      internalID: 1784125878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_102
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74755a7d1f895854180c2e7f5fbbadcb
+      internalID: 947822450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_103
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c6e4100977ba94ebf2f0475ab8463a
+      internalID: 501253036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_104
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cec3f85e34976f45a6624adb3af25ce
+      internalID: -1773295025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fd22988c38cfd4f8464764e827369d
+      internalID: 271152493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_106
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2079abf96f4317a4db9895edb2154968
+      internalID: 2081911782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe6665e4ca653e4ba336bffefa04e0c
+      internalID: -1673865866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_108
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f1d863f9696e14f884d2b4b7e41944
+      internalID: -1595100227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_109
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa7da628d0a14346953c190bb588db9
+      internalID: -2110118272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_110
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c815aa24523e8e240ace3682251c52ef
+      internalID: -445729837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257eb2e3b1dce0a4e8bca9327716c8c3
+      internalID: 1440401952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_112
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bb259db86422349bc12840d32c40d4
+      internalID: -1307445616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_113
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d9c37bddfb35349a380dd3f5bac35c
+      internalID: -709427240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_114
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9040e53868f14a84c979ba75b3cad8d5
+      internalID: 591229428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4d7cf9140245e4c982b54fac846af5
+      internalID: 1241237062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ed53b667d37214db335a6ebbcd551d
+      internalID: 982372122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_117
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5bb7b51338d184eae385b7091c36d9
+      internalID: 1242589983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da361720e74ba34cbb6b7e8348c8821
+      internalID: 629363982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_119
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc365202df25c64ba3b312c353a75df
+      internalID: 1517460256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a2bbba204b391498ba2f0c5db90b27
+      internalID: -572321472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_121
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bedeb8c1ec5fa04192c5833d0aa5df6
+      internalID: 1689299025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_122
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c0bc4dd304b06418e7951ea1187467
+      internalID: 2114564594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_123
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb2c9496be4ed44884a47643b26a46a
+      internalID: -659370292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_124
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532f784d6f57dc048ab5e4b1bc7ade42
+      internalID: 1890672348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_125
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da2ec847381736469276ef3e47387e3
+      internalID: 931618000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_126
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f9cbf50d9f569438b77be60b072d68
+      internalID: -529728916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_127
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70dc93623e4b5d44b6061b58038319f
+      internalID: -1829550292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_128
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d53a8ac26887d64bbb942548595cfdc
+      internalID: -557051474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_129
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de36ea912c6fa8e42bc1ea290d3d1539
+      internalID: 1365181321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_130
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638bbc3ad0408064886c6480cc895b49
+      internalID: 823480031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_131
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71580a9a6724e64c953446efa55337a
+      internalID: -1750970042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_132
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150fa171f295dac4a9855d61a146f596
+      internalID: 876223306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_133
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6713b37c8e558409e91d83eb08a55c
+      internalID: 1912607664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_134
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcfe4ba066eb6640af02a251212cce1
+      internalID: -208555077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_135
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0f08de29f986e4999eebd0a6df4cd4
+      internalID: -200862401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_136
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952c83bf1fc30eb4d876870f76c88714
+      internalID: 2028664370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_137
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba2e4a7b483d6e499fa2f0ab8788b78
+      internalID: -409879919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_138
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726597326fe9a6c46bfadf6933d2f639
+      internalID: 1107619872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_139
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df96ee0f9310d764bb93ff43dffee503
+      internalID: -1890329118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_140
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d3d69f39dd6ce49b937ffe95e7c8b1
+      internalID: 1781037315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_141
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a1402665280c141b36e59acd7ebe9d
+      internalID: -1782073784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_142
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb68904f3540034499617fdf40e4c118
+      internalID: 1897854028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_143
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d040680a39b5eaf4ba45398b1a231f09
+      internalID: 1080526116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_144
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac5f8a3be877df42abf2690b556710a
+      internalID: -309188242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_145
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a21081a92870ce439ed462d23123b01
+      internalID: 244460493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9245b29b51b6545b608cb67510be6f
+      internalID: -1094308790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_147
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ee89e21598db842a04eb110b0ed1b0
+      internalID: -1902390244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_148
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fac30768454a5459e4fa8446b4ce37
+      internalID: -916555372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e339a99665eaac046a7e86875f68d816
+      internalID: 1263392235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_150
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da61bc7c3245f44489e1d8ddc07b247f
+      internalID: -1200475970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_151
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe353b764a59fd4e9af73bb19363f6f
+      internalID: -1288665004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_152
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addf2b4b1d76b7f4ebb0fd2bef10d202
+      internalID: -2081006469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_153
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57b0e29872f4c440a1bca557d2f3327
+      internalID: -1161598828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_154
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732fe9899ed502242bd68344338b1126
+      internalID: 636850907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_155
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af363ce536cc0684aafb07529dd2b22d
+      internalID: 1813874962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_156
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d7e435d409e4548935b22949d4c178
+      internalID: -885102387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_157
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbf2273b5a0787438e7050a1dae98f7
+      internalID: 760024341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_158
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5a7895743e5d64caf7256dc35392b5
+      internalID: 150015488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_159
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871a6583dc60aa544abc4c39b17095c9
+      internalID: 662421738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_160
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778da5f45d12d0a43b33ce85bb59006c
+      internalID: 1368226762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_161
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7274c0f4bd3df5940ab1269529e236ed
+      internalID: -477380846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_162
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e39baceb7dc9cb4fb8f194bbf066315
+      internalID: -1554204024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_163
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd582333f7b7e6947b5d4830a479a4ab
+      internalID: -1921029343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_164
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbb3b44a9c999a4899dc9714325f298
+      internalID: -111373060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_165
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bf40b098b3c0b4085895c9514b3968
+      internalID: 1692899077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_166
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8242f1b0342f8c2409e0737a0c69a0bf
+      internalID: -821101293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_167
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be868637a2cb0e42973735e346103be
+      internalID: -414819477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_168
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f31a00fde1e5154c85a34368630be04
+      internalID: 1039390162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_169
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c216003d7255652459209d6946b0dfe9
+      internalID: -1656901978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_170
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e89ba93f579ca4489dfbd1d942053ba
+      internalID: -711353559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_171
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fab05fc520dae46b2aca11a058a57d
+      internalID: -1432026359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_172
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7684a5a7b298018479140ea359de4965
+      internalID: -1326000882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_173
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f198f06b513b8db4f97d804c3e653442
+      internalID: 159195902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a896d6aaf2f8ce478bf2439316dddb1
+      internalID: -646954744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_175
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb4aac627762564a84a2ed7c288df49
+      internalID: -1870019248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_176
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946994170c35d004a933bc4c1dbd4c08
+      internalID: 2109698622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_177
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8a4c85ed736a1478fd538cea9e9545
+      internalID: -1490674728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_178
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e4538b9e996e74ea01831e35ee58bd
+      internalID: 937850991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_179
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a440ce13103bd12478193d4a7c548d96
+      internalID: -1168378713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_180
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022d6b1288c87b144bf4e5e716bfac3a
+      internalID: 769305325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_181
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d318a12fdd05a4e97cbe710154d5d3
+      internalID: -1453843390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_182
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5ca35d3e995dc4990102379c7ec7fd
+      internalID: -225382400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_183
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbca0a63c91b1642a7293c6d0723ac1
+      internalID: -1607227884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_184
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc2ccb0ce47e9342b5e9becc484d283
+      internalID: -2063451645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_185
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8872cd34594c8a14e9896c34dab99089
+      internalID: 1756094390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_186
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda3ab952299404419e9007f82e026ef
+      internalID: 1327539305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_187
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36781d485de455c43a6687754b04e6d3
+      internalID: 1305198529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_188
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b5157b4dec2864fb501e8db5a0d885
+      internalID: 1031662822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_189
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b660aaeb0335dcd439453ff7cacc5d41
+      internalID: -572530452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_190
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68215bf110828cc49964e3f9e68fdcf0
+      internalID: -1345347908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_191
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f40636e2e7dda4a8d14894186bc877
+      internalID: -1221850994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_192
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724140b3b4d5d2648a854a6d76fe19b1
+      internalID: 988267167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_193
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6f42fab1361e04b8c4775b2fb1fa37
+      internalID: 116671127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_194
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3ee02c56644df4582f4eac47af9deb
+      internalID: -1347513294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_195
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074339877018b7343a089be4127ed3af
+      internalID: -1283999895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_196
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43371a3c15fe56e44bd3608b03546919
+      internalID: 1280947249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_197
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad5049e909e30f48b9ba1c0864a3db3
+      internalID: -887019509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_198
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dbfefc05ea42e4493ed8952fd16272
+      internalID: -1380848707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_199
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5366b2b166b79444fb4e337451d7ad0b
+      internalID: 284152401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_200
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae60467f8b5a0b246829466af91d2897
+      internalID: -1436554085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_201
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1977854f3e7748042a7de528c24fb22d
+      internalID: 49242008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_202
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d036dca3cc427e489490baaf3261446
+      internalID: 858590841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_203
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a3394e1a1d68b489474c345a3aa991
+      internalID: -1334016042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_204
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d4336a4ebf1454393b14dc8e223bd9
+      internalID: -542253089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_205
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 187
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e8244107269ee4295beb2d5800f6d5
+      internalID: -1503433985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_206
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bb4618611dddf4eb11d5fc1afa73c9
+      internalID: 2067248087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_207
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a261d636a92991f449e621701afeab6a
+      internalID: 1157327869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_208
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd8499cb72bc19489e83b15c6d56839
+      internalID: -1387911061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_209
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf54a887f6aeaf445a80f0ce1f9a4521
+      internalID: 1427466507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_210
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbc9d1104ce12b4597b50380bef861a
+      internalID: -1206434578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_211
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548844db820a9154aa41c4598c84b1f2
+      internalID: 2034316155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_212
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35069d41e9cb7b4b85142489b3a4d29
+      internalID: 417083214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_213
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef61db5474576f2468a60764a254c350
+      internalID: -319573371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_214
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f6edb57c978c3449ef8d335337b7ac
+      internalID: 471561033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_215
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e2f41f6c2d4044396debe32dc57c8b
+      internalID: 567639964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_216
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b811d10585cfa4086d661795f3d46a
+      internalID: -245478856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_217
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfb011c3ed105a4a8b05644935ba5d2
+      internalID: -1491433906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_218
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10452870e12b6064780e75f6e7121ce0
+      internalID: 740639438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_219
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6f0894e30c71c40b23b9ee3634741b
+      internalID: -237709088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_220
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86070b8f91989884786b1b0ae9e03719
+      internalID: 1661895116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_221
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0300bd860859354a98bba70f7212c3f
+      internalID: -63967396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_222
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fd449925d541b448746c797b465ab2
+      internalID: 1845927631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_223
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7118f8fcd2b1b14593db39219fb10c8
+      internalID: 926855440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_224
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d5660e807dd1c46bd417b00eda37de
+      internalID: -465502708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_225
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8140645f7c3756846ab2baeee1d59669
+      internalID: -579058353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_226
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae02e62d1d0e30646a735c58b8346de8
+      internalID: -1065081866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_227
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7842e353f90f813459991e248ea6550a
+      internalID: -379407995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_228
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67104d16118439047b6a4c2ce103d0df
+      internalID: -2017809894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_229
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b96c2f48189884bafa043b17fb23e7
+      internalID: 2032669793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_230
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed90d3c029e625439b543612e81bab3
+      internalID: 888640553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_231
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978a7e7b7a3c8ce43a2d0339620c7e14
+      internalID: 1348697027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_232
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82dc91694945854aafdde7347be4ac0
+      internalID: -1831142453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_233
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d827b6c90db57054e8864eeaa9677248
+      internalID: 1658103349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_234
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262d7de057126164693588ca0ab8fed0
+      internalID: -297397647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_235
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41109c88f2ff154eb5c7fda1b3f52c1
+      internalID: 499678675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_236
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c7932ecf627f04290627601f72a41c
+      internalID: -1394254413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_237
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa5a5900fd28c04b9d21baabefe7f4c
+      internalID: -628701219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_238
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6842f84fd7bef3445b1af68bfb93ae45
+      internalID: 315660549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_239
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2c84daff2802441b128a6ce2dc5a02
+      internalID: 1138212399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_240
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5938b56b93f514445981035049a985f8
+      internalID: 1330299117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_241
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2e9dd0b3fe68a4d8c70e2037856ff0
+      internalID: 207132092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_242
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4324e7713bcf185448c7b5901052d769
+      internalID: 1799652578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_243
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17155a23f15ead4dbc75dc1ea5f6bd9
+      internalID: 1602558115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_244
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341dc04402ee3b94bbf8328cf6fd3c97
+      internalID: 31074767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_245
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f894631d9fda47449a612df57a93c98
+      internalID: -286882115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_246
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e8f2022d02d0646874757a25f699f3
+      internalID: 684249313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_247
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b247fec5a195ea4aa270948dcd4cf5b
+      internalID: 1251177665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_248
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cf30a1c373b75428e88f01af41d93f
+      internalID: -261056724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_249
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdcae42e5abe2948b50d080dfe17ff1
+      internalID: -1291921039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_250
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6b46180c998e54483634972aa5e847
+      internalID: -733157601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_251
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccb2325c42a46649bc40728f9ee6e5d
+      internalID: 152571521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_252
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1e6a561180c59409a74353cc0c2357
+      internalID: -392954450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_253
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c1fdc292394614dad98c7d58cacae2
+      internalID: 1176522293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_254
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f12b64af2638948bc43d68c0e3fc01
+      internalID: 229338790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_255
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edec657bf96bbb0469e03df45b678e8d
+      internalID: -515293758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_256
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a9eb92c0408d044b78669c2a893b90
+      internalID: 1840945653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_257
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7d30d8091a0f24e826ea04385181b5
+      internalID: -1112532996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_258
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a126ddf90c3312448ed30df08c270e9
+      internalID: -60200295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_259
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107f33286bca35943b3825d300b2d160
+      internalID: 1043201884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_260
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b6a73c6cc1a7f428547325dcd15fb1
+      internalID: 1983417533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_261
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af40ba0c6a8bc674f89555da5814e7a7
+      internalID: 2035685130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_262
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdca98c29f0399469f03397d9a2bc13
+      internalID: -1206289074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_263
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e21282874d3ff245aca021ac5c36705
+      internalID: 598592538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_264
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7a8aaa19c80e54bb3929cff5789398
+      internalID: 433071484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_265
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542260e8977152c4da20793e10aa1429
+      internalID: -799208272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_266
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37914af81b12190438f4e8e1d39fc3fa
+      internalID: 1018435572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_267
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eb68523c50ebf4ab430d3c49c40399
+      internalID: -553806098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_268
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f20c7437d9c065418f9c5b7e029b2db
+      internalID: 544700054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_269
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71f383dd0df4dc40bd064688a0939de
+      internalID: 768168922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_270
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38e310aab7c0d64f838be1a72787d4c
+      internalID: -1833622383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_271
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5ffb11701a6ea43a492afd4ce96538
+      internalID: 1415634030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_272
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f38b47a4285cc458ad33e6fc3f709e
+      internalID: 1789630939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_273
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6de6f4f2c5491240accdae03f043ffc
+      internalID: 1181318503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_274
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c7b6fcedb5b1a44b0215331eeefbc1
+      internalID: -2046537936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_275
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433cfbaf52d468145bae8b12059b4fb8
+      internalID: -934292472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_276
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dc4e9c30bd4ed478e796628329e41b
+      internalID: -1135571282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_277
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248acff3fe02a21448d037a778ed29df
+      internalID: -800413770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_278
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfa3768d44239b45beb058d71f923f5
+      internalID: -1466229671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_279
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2521f4845d8e3e64b883b86735d3d44c
+      internalID: 2024971723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_280
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c230d4cbe71d9e40904f4090e273490
+      internalID: -237215331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_281
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57af64b408e13f54b8e7ed603ed03a2f
+      internalID: 2044488285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_282
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25645d268c995514db3d36a427db6ab6
+      internalID: 61705449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_283
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbaf4a2a75aab946bbfa491e78d6a3c
+      internalID: 960962478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_284
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a24d03172f3cab4ab5195c3d3073e8f
+      internalID: -1715106995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_285
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4aa82b0f9e49e40abfbd2fe86eafac
+      internalID: -1301104104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_286
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae46623014fc634c9530149ab0ebfbd
+      internalID: -1647010153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_287
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb40a028b9df2474dadbb442b5852ba7
+      internalID: 1075744058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_288
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f58f2219236233448fa906bd5176a7d
+      internalID: 1904446846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_289
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924cbf768db000b43a687f8780a44442
+      internalID: 497394762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_290
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55fd14204adcf4ca2968cb639e5ec0
+      internalID: 279327237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_291
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385e89803eb90a945973398c1304ef51
+      internalID: -998998180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_292
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454386a99bd50a944b7acdd4fb0e7603
+      internalID: -505008330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_293
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02de743e31c4b14685ccb5a3a4dd2e7
+      internalID: -111814859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_294
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340040c4ecc8beb42b358fed64749104
+      internalID: 1278923325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_295
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307e7a4d217e1804db40a8f04e7b2aaa
+      internalID: 62103928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_296
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79c386b57c63bb40aa59d3efc036a63
+      internalID: 1250393166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_297
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d824db5552ba09e498e5db72a5435761
+      internalID: 234177867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_298
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2080af00472f5e741aa43231c5702689
+      internalID: -1098829545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_299
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9656acad93397642ad49d3b879e34d5
+      internalID: -1416400516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_300
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bd2d6c58d674b40a3c0921c80e7027
+      internalID: 683901528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_301
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c245d20de8cde4984dbe4b419fb793
+      internalID: -1952898007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_302
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab3a7d2dbeb7dd47943b38026bd731a
+      internalID: -1674640426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_303
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ac9906efff5ac4aa1b4d526f3c0327
+      internalID: -1997953688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_304
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0296106f89d0aad4fb55077b6aa987ad
+      internalID: 507155741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_305
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f9eb419ccd1594caa1cc502764e1b6
+      internalID: -1962153786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_306
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f600bd499b397a488b12c6203c52ed2
+      internalID: 111237462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_307
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91906e0f225d25d41b4be16944eb42a6
+      internalID: -1217486778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BookShelves and Tables_308
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf1fb9b301e564419306433ad23c323
+      internalID: 523961054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7cee295ac59e276468130440d151ce28
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BookShelves and Tables_0: -1076630955345183905
+      BookShelves and Tables_1: 4280175559501082203
+      BookShelves and Tables_10: -3100051922587702279
+      BookShelves and Tables_100: 508723219
+      BookShelves and Tables_101: 1784125878
+      BookShelves and Tables_102: 947822450
+      BookShelves and Tables_103: 501253036
+      BookShelves and Tables_104: -1773295025
+      BookShelves and Tables_105: 271152493
+      BookShelves and Tables_106: 2081911782
+      BookShelves and Tables_107: -1673865866
+      BookShelves and Tables_108: -1595100227
+      BookShelves and Tables_109: -2110118272
+      BookShelves and Tables_11: 8017452015969098419
+      BookShelves and Tables_110: -445729837
+      BookShelves and Tables_111: 1440401952
+      BookShelves and Tables_112: -1307445616
+      BookShelves and Tables_113: -709427240
+      BookShelves and Tables_114: 591229428
+      BookShelves and Tables_115: 1241237062
+      BookShelves and Tables_116: 982372122
+      BookShelves and Tables_117: 1242589983
+      BookShelves and Tables_118: 629363982
+      BookShelves and Tables_119: 1517460256
+      BookShelves and Tables_12: -6731943340046917237
+      BookShelves and Tables_120: -572321472
+      BookShelves and Tables_121: 1689299025
+      BookShelves and Tables_122: 2114564594
+      BookShelves and Tables_123: -659370292
+      BookShelves and Tables_124: 1890672348
+      BookShelves and Tables_125: 931618000
+      BookShelves and Tables_126: -529728916
+      BookShelves and Tables_127: -1829550292
+      BookShelves and Tables_128: -557051474
+      BookShelves and Tables_129: 1365181321
+      BookShelves and Tables_13: 4448749761301897587
+      BookShelves and Tables_130: 823480031
+      BookShelves and Tables_131: -1750970042
+      BookShelves and Tables_132: 876223306
+      BookShelves and Tables_133: 1912607664
+      BookShelves and Tables_134: -208555077
+      BookShelves and Tables_135: -200862401
+      BookShelves and Tables_136: 2028664370
+      BookShelves and Tables_137: -409879919
+      BookShelves and Tables_138: 1107619872
+      BookShelves and Tables_139: -1890329118
+      BookShelves and Tables_14: -2039521188972654253
+      BookShelves and Tables_140: 1781037315
+      BookShelves and Tables_141: -1782073784
+      BookShelves and Tables_142: 1897854028
+      BookShelves and Tables_143: 1080526116
+      BookShelves and Tables_144: -309188242
+      BookShelves and Tables_145: 244460493
+      BookShelves and Tables_146: -1094308790
+      BookShelves and Tables_147: -1902390244
+      BookShelves and Tables_148: -916555372
+      BookShelves and Tables_149: 1263392235
+      BookShelves and Tables_15: -6621782829597090822
+      BookShelves and Tables_150: -1200475970
+      BookShelves and Tables_151: -1288665004
+      BookShelves and Tables_152: -2081006469
+      BookShelves and Tables_153: -1161598828
+      BookShelves and Tables_154: 636850907
+      BookShelves and Tables_155: 1813874962
+      BookShelves and Tables_156: -885102387
+      BookShelves and Tables_157: 760024341
+      BookShelves and Tables_158: 150015488
+      BookShelves and Tables_159: 662421738
+      BookShelves and Tables_16: -6980151286167533366
+      BookShelves and Tables_160: 1368226762
+      BookShelves and Tables_161: -477380846
+      BookShelves and Tables_162: -1554204024
+      BookShelves and Tables_163: -1921029343
+      BookShelves and Tables_164: -111373060
+      BookShelves and Tables_165: 1692899077
+      BookShelves and Tables_166: -821101293
+      BookShelves and Tables_167: -414819477
+      BookShelves and Tables_168: 1039390162
+      BookShelves and Tables_169: -1656901978
+      BookShelves and Tables_17: -5429585646797997681
+      BookShelves and Tables_170: -711353559
+      BookShelves and Tables_171: -1432026359
+      BookShelves and Tables_172: -1326000882
+      BookShelves and Tables_173: 159195902
+      BookShelves and Tables_174: -646954744
+      BookShelves and Tables_175: -1870019248
+      BookShelves and Tables_176: 2109698622
+      BookShelves and Tables_177: -1490674728
+      BookShelves and Tables_178: 937850991
+      BookShelves and Tables_179: -1168378713
+      BookShelves and Tables_18: 6432765103052741387
+      BookShelves and Tables_180: 769305325
+      BookShelves and Tables_181: -1453843390
+      BookShelves and Tables_182: -225382400
+      BookShelves and Tables_183: -1607227884
+      BookShelves and Tables_184: -2063451645
+      BookShelves and Tables_185: 1756094390
+      BookShelves and Tables_186: 1327539305
+      BookShelves and Tables_187: 1305198529
+      BookShelves and Tables_188: 1031662822
+      BookShelves and Tables_189: -572530452
+      BookShelves and Tables_19: -679427284628363963
+      BookShelves and Tables_190: -1345347908
+      BookShelves and Tables_191: -1221850994
+      BookShelves and Tables_192: 988267167
+      BookShelves and Tables_193: 116671127
+      BookShelves and Tables_194: -1347513294
+      BookShelves and Tables_195: -1283999895
+      BookShelves and Tables_196: 1280947249
+      BookShelves and Tables_197: -887019509
+      BookShelves and Tables_198: -1380848707
+      BookShelves and Tables_199: 284152401
+      BookShelves and Tables_2: -3602062257223582731
+      BookShelves and Tables_20: -1295924016941413231
+      BookShelves and Tables_200: -1436554085
+      BookShelves and Tables_201: 49242008
+      BookShelves and Tables_202: 858590841
+      BookShelves and Tables_203: -1334016042
+      BookShelves and Tables_204: -542253089
+      BookShelves and Tables_205: -1503433985
+      BookShelves and Tables_206: 2067248087
+      BookShelves and Tables_207: 1157327869
+      BookShelves and Tables_208: -1387911061
+      BookShelves and Tables_209: 1427466507
+      BookShelves and Tables_21: -3994357067157852785
+      BookShelves and Tables_210: -1206434578
+      BookShelves and Tables_211: 2034316155
+      BookShelves and Tables_212: 417083214
+      BookShelves and Tables_213: -319573371
+      BookShelves and Tables_214: 471561033
+      BookShelves and Tables_215: 567639964
+      BookShelves and Tables_216: -245478856
+      BookShelves and Tables_217: -1491433906
+      BookShelves and Tables_218: 740639438
+      BookShelves and Tables_219: -237709088
+      BookShelves and Tables_22: -5644832320366611110
+      BookShelves and Tables_220: 1661895116
+      BookShelves and Tables_221: -63967396
+      BookShelves and Tables_222: 1845927631
+      BookShelves and Tables_223: 926855440
+      BookShelves and Tables_224: -465502708
+      BookShelves and Tables_225: -579058353
+      BookShelves and Tables_226: -1065081866
+      BookShelves and Tables_227: -379407995
+      BookShelves and Tables_228: -2017809894
+      BookShelves and Tables_229: 2032669793
+      BookShelves and Tables_23: 296919215167933344
+      BookShelves and Tables_230: 888640553
+      BookShelves and Tables_231: 1348697027
+      BookShelves and Tables_232: -1831142453
+      BookShelves and Tables_233: 1658103349
+      BookShelves and Tables_234: -297397647
+      BookShelves and Tables_235: 499678675
+      BookShelves and Tables_236: -1394254413
+      BookShelves and Tables_237: -628701219
+      BookShelves and Tables_238: 315660549
+      BookShelves and Tables_239: 1138212399
+      BookShelves and Tables_24: -3285366532792540259
+      BookShelves and Tables_240: 1330299117
+      BookShelves and Tables_241: 207132092
+      BookShelves and Tables_242: 1799652578
+      BookShelves and Tables_243: 1602558115
+      BookShelves and Tables_244: 31074767
+      BookShelves and Tables_245: -286882115
+      BookShelves and Tables_246: 684249313
+      BookShelves and Tables_247: 1251177665
+      BookShelves and Tables_248: -261056724
+      BookShelves and Tables_249: -1291921039
+      BookShelves and Tables_25: -4219133739566711469
+      BookShelves and Tables_250: -733157601
+      BookShelves and Tables_251: 152571521
+      BookShelves and Tables_252: -392954450
+      BookShelves and Tables_253: 1176522293
+      BookShelves and Tables_254: 229338790
+      BookShelves and Tables_255: -515293758
+      BookShelves and Tables_256: 1840945653
+      BookShelves and Tables_257: -1112532996
+      BookShelves and Tables_258: -60200295
+      BookShelves and Tables_259: 1043201884
+      BookShelves and Tables_26: -8444491439287024606
+      BookShelves and Tables_260: 1983417533
+      BookShelves and Tables_261: 2035685130
+      BookShelves and Tables_262: -1206289074
+      BookShelves and Tables_263: 598592538
+      BookShelves and Tables_264: 433071484
+      BookShelves and Tables_265: -799208272
+      BookShelves and Tables_266: 1018435572
+      BookShelves and Tables_267: -553806098
+      BookShelves and Tables_268: 544700054
+      BookShelves and Tables_269: 768168922
+      BookShelves and Tables_27: 1278659367
+      BookShelves and Tables_270: -1833622383
+      BookShelves and Tables_271: 1415634030
+      BookShelves and Tables_272: 1789630939
+      BookShelves and Tables_273: 1181318503
+      BookShelves and Tables_274: -2046537936
+      BookShelves and Tables_275: -934292472
+      BookShelves and Tables_276: -1135571282
+      BookShelves and Tables_277: -800413770
+      BookShelves and Tables_278: -1466229671
+      BookShelves and Tables_279: 2024971723
+      BookShelves and Tables_28: 1045449098
+      BookShelves and Tables_280: -237215331
+      BookShelves and Tables_281: 2044488285
+      BookShelves and Tables_282: 61705449
+      BookShelves and Tables_283: 960962478
+      BookShelves and Tables_284: -1715106995
+      BookShelves and Tables_285: -1301104104
+      BookShelves and Tables_286: -1647010153
+      BookShelves and Tables_287: 1075744058
+      BookShelves and Tables_288: 1904446846
+      BookShelves and Tables_289: 497394762
+      BookShelves and Tables_29: -467743524
+      BookShelves and Tables_290: 279327237
+      BookShelves and Tables_291: -998998180
+      BookShelves and Tables_292: -505008330
+      BookShelves and Tables_293: -111814859
+      BookShelves and Tables_294: 1278923325
+      BookShelves and Tables_295: 62103928
+      BookShelves and Tables_296: 1250393166
+      BookShelves and Tables_297: 234177867
+      BookShelves and Tables_298: -1098829545
+      BookShelves and Tables_299: -1416400516
+      BookShelves and Tables_3: -8009779058021335272
+      BookShelves and Tables_30: -74566653
+      BookShelves and Tables_300: 683901528
+      BookShelves and Tables_301: -1952898007
+      BookShelves and Tables_302: -1674640426
+      BookShelves and Tables_303: -1997953688
+      BookShelves and Tables_304: 507155741
+      BookShelves and Tables_305: -1962153786
+      BookShelves and Tables_306: 111237462
+      BookShelves and Tables_307: -1217486778
+      BookShelves and Tables_308: 523961054
+      BookShelves and Tables_31: 1620798072
+      BookShelves and Tables_32: 1083072530
+      BookShelves and Tables_33: -1219938579
+      BookShelves and Tables_34: 626136316
+      BookShelves and Tables_35: -1818104077
+      BookShelves and Tables_36: -1090220187
+      BookShelves and Tables_37: -1804821296
+      BookShelves and Tables_38: 1868505645
+      BookShelves and Tables_39: 1730645433
+      BookShelves and Tables_4: 7421517298224677592
+      BookShelves and Tables_40: -15396062
+      BookShelves and Tables_41: 1394066273
+      BookShelves and Tables_42: 1367876919
+      BookShelves and Tables_43: -821816648
+      BookShelves and Tables_44: 1857344142
+      BookShelves and Tables_45: -318202310
+      BookShelves and Tables_46: -1617374572
+      BookShelves and Tables_47: 1059844675
+      BookShelves and Tables_48: -943221536
+      BookShelves and Tables_49: -1223342142
+      BookShelves and Tables_5: -1638116774771706680
+      BookShelves and Tables_50: 2006403932
+      BookShelves and Tables_51: 1289826589
+      BookShelves and Tables_52: -2038392972
+      BookShelves and Tables_53: 1278282791
+      BookShelves and Tables_54: -130071812
+      BookShelves and Tables_55: 359261589
+      BookShelves and Tables_56: 1410804782
+      BookShelves and Tables_57: 955453220
+      BookShelves and Tables_58: -1230340986
+      BookShelves and Tables_59: 699059656
+      BookShelves and Tables_6: -7924672017273011195
+      BookShelves and Tables_60: 51212905
+      BookShelves and Tables_61: 1618035372
+      BookShelves and Tables_62: -377193121
+      BookShelves and Tables_63: -1765327919
+      BookShelves and Tables_64: 618264238
+      BookShelves and Tables_65: 1682009928
+      BookShelves and Tables_66: 1778493442
+      BookShelves and Tables_67: 551068473
+      BookShelves and Tables_68: 835078412
+      BookShelves and Tables_69: -1898152282
+      BookShelves and Tables_7: -767701250383897895
+      BookShelves and Tables_70: -573588412
+      BookShelves and Tables_71: -19089663
+      BookShelves and Tables_72: -426735089
+      BookShelves and Tables_73: -1515244584
+      BookShelves and Tables_74: -1550301829
+      BookShelves and Tables_75: 964362485
+      BookShelves and Tables_76: 180465703
+      BookShelves and Tables_77: 1758755039
+      BookShelves and Tables_78: 1371383294
+      BookShelves and Tables_79: 1189910035
+      BookShelves and Tables_8: 1868183936486074778
+      BookShelves and Tables_80: -1004264078
+      BookShelves and Tables_81: 696464079
+      BookShelves and Tables_82: -436361912
+      BookShelves and Tables_83: -1493435559
+      BookShelves and Tables_84: -1461638806
+      BookShelves and Tables_85: 1999976961
+      BookShelves and Tables_86: 358854519
+      BookShelves and Tables_87: 610822227
+      BookShelves and Tables_88: -2088169239
+      BookShelves and Tables_89: -1049499360
+      BookShelves and Tables_9: 2557754609092078413
+      BookShelves and Tables_90: -737364301
+      BookShelves and Tables_91: -265163109
+      BookShelves and Tables_92: 427932586
+      BookShelves and Tables_93: -2038710825
+      BookShelves and Tables_94: -1619825331
+      BookShelves and Tables_95: -1647574646
+      BookShelves and Tables_96: -873112064
+      BookShelves and Tables_97: 1757205156
+      BookShelves and Tables_98: -779194254
+      BookShelves and Tables_99: -1522851327
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
