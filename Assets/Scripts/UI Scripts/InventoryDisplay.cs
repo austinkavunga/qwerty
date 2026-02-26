@@ -50,8 +50,8 @@ public abstract class InventoryDisplay : MonoBehaviour
                 clickedUISlot.ClearSlot();
                 return;
             }
-                
         }
+
         // if clicked slot doesnt have an item - mouse has an item - place item.
 
         if (clickedUISlot.AssignedInventorySlot.ItemData == null && mouseInventoryItem.AssignedInventorySlot.ItemData != null)

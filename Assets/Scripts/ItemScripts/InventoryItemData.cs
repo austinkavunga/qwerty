@@ -1,5 +1,9 @@
 using UnityEngine;
 
+
+
+//This is a scriptable object that defines what an item is in our game.
+
 [CreateAssetMenu(menuName = "Inventory System/ Inventory Item")]
 public class InventoryItemData : ScriptableObject
 {

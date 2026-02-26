@@ -19,11 +19,14 @@ public class ItemPickUp : MonoBehaviour
     {
         var inventory = other.transform.GetComponent<InventoryHolder>();
 
-        if(!inventory)
+        //If it collides with an object without an inventory nothing happens
+        if (!inventory) 
         {
             return;
         }
-        if(inventory.InventorySystem.AddToInventory(ItemData,1))
+
+        //Checks if it can be added to the inventory then destroys the Game Object
+        if (inventory.InventorySystem.AddToInventory(ItemData,1)) 
         {
             Destroy(this.gameObject);
         }

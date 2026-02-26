@@ -10,7 +10,7 @@ public class InventorySlot_UI : MonoBehaviour
 
     private Button button;
 
-    public InventorySlot AssignedInventorySlot => assignedInventorySlot;
+    public InventorySlot AssignedInventorySlot => assignedInventorySlot; 
     public InventoryDisplay ParentDisplay { get; private set; }
 
     private void Awake()
@@ -19,8 +19,6 @@ public class InventorySlot_UI : MonoBehaviour
 
         button = GetComponent<Button>();
         button?.onClick.AddListener(OnUISlotClick);
-
-        ParentDisplay = transform.parent.GetComponent<InventoryDisplay>();
     }
 
     public void Init(InventorySlot slot)
@@ -50,7 +48,7 @@ public class InventorySlot_UI : MonoBehaviour
         }
 
     }
-    public void UpdateUISlot()
+    public void UpdateUISlot() 
     {
         if (assignedInventorySlot != null)
         {
@@ -65,6 +63,7 @@ public class InventorySlot_UI : MonoBehaviour
         itemSprite.color = Color.clear;
         itemCount.text = " ";
     }
+
     public void OnUISlotClick()
     {
         ParentDisplay.SlotClicked(this);
