@@ -17,10 +17,8 @@ public class Interactor : MonoBehaviour
 
         if (Keyboard.current.eKey.wasPressedThisFrame)
         {
-            Debug.Log("E is pressed");
             if (colliders.Length == 0) 
             {
-                Debug.Log("No interactable items nearby.");
                 return;
             }
             for (int i = 0; i < colliders.Length; i++)
@@ -30,11 +28,6 @@ public class Interactor : MonoBehaviour
                 if (interactable != null)
                 {
                     StartInteraction(interactable); 
-                    Debug.Log("items are interactable but failed for some reason :( ");
-                }
-                else
-                {
-                    Debug.Log("no item are interactable");
                 }
             }
         }
