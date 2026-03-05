@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerSprint : MonoBehaviour
@@ -6,6 +7,8 @@ public class PlayerSprint : MonoBehaviour
     public float stamina;
     public GameObject staminaBar;
 
+    public bool maxStamina;
+
     void Awake()
     {
         stamina = totalStamina;
@@ -13,7 +16,15 @@ public class PlayerSprint : MonoBehaviour
 
     void Update()
     {
-
+        if(maxStamina == true)
+        {
+            staminaBar.GetComponent<SpriteRenderer>().color = Color.yellow;
+            stamina = totalStamina;
+        }
+        if(maxStamina == false)
+        {
+            staminaBar.GetComponent<SpriteRenderer>().color = Color.white;
+        }
 
         if (PlayerController.sprintButtonPressed == true && stamina > 0)
         {
@@ -35,5 +46,17 @@ public class PlayerSprint : MonoBehaviour
         {
             staminaBar.transform.localScale = new Vector2(stamina / totalStamina, staminaBar.transform.localScale.y);
         }
+    }
+
+    public void UseEnergyDrink()
+    {
+        maxStamina = true;
+        StartCoroutine(WaitTenSeconds());
+    }
+
+    public IEnumerator WaitTenSeconds()
+    {
+        yield return new WaitForSeconds(10f);
+        maxStamina = false;
     }
 }

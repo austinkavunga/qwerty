@@ -6,6 +6,9 @@ TagManager:
   tags:
   - GroundFloorStairs
   - FirstFloorStairs
+  - BasementStairs
+  - BasementLadder
+  - Enemy
   layers:
   - Default
   - TransparentFX

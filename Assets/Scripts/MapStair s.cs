@@ -6,6 +6,9 @@ public class MapStairs : MonoBehaviour
     public GameObject TopFloor;
     public GameObject GroundFloorStairs;
     public GameObject TopFloorStairs;
+    public GameObject BasementStairs;
+    public GameObject BasementFloor;
+    public GameObject BasementLadder;
     private Transform playerTransform;
 
     void Start()
@@ -15,6 +18,10 @@ public class MapStairs : MonoBehaviour
 
         TopFloor.SetActive(false);
         TopFloorStairs.SetActive(false);
+
+        BasementFloor.SetActive(false);
+        BasementStairs.SetActive(true);
+        BasementLadder.SetActive(false);
 
         playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
@@ -30,6 +37,7 @@ public class MapStairs : MonoBehaviour
         {
             GroundFloor.SetActive(false);
             GroundFloorStairs.SetActive(false);
+            BasementStairs.SetActive(false);
             TopFloor.SetActive(true);
             TopFloorStairs.SetActive(true);
             playerTransform.position = new Vector3(9, -12, playerTransform.position.z);
@@ -40,7 +48,32 @@ public class MapStairs : MonoBehaviour
             TopFloorStairs.SetActive(false);
             GroundFloor.SetActive(true);
             GroundFloorStairs.SetActive(true);
+            BasementStairs.SetActive(true);
+            BasementLadder.SetActive(false);
             playerTransform.position = new Vector3(9, -7, playerTransform.position.z);
+        }
+        if(collision.gameObject.CompareTag("BasementStairs"))
+        {
+            BasementFloor.SetActive(true);
+            BasementStairs.SetActive(false);
+            BasementLadder.SetActive(true);
+            GroundFloor.SetActive(false);
+            GroundFloorStairs.SetActive(false);
+            TopFloor.SetActive(false);
+            TopFloorStairs.SetActive(false);
+            playerTransform.position = new Vector3(19, -6, playerTransform.position.z);
+        }
+        if(collision.gameObject.CompareTag("BasementLadder"))
+        {
+            BasementFloor.SetActive(false);
+            BasementLadder.SetActive(false);
+            BasementStairs.SetActive(true);
+            GroundFloor.SetActive(true);
+            GroundFloorStairs.SetActive(true);
+            BasementStairs.SetActive(true);
+            TopFloor.SetActive(false);
+            TopFloorStairs.SetActive(false);
+            playerTransform.position = new Vector3(20, -11, playerTransform.position.z);
         }
     }
 }

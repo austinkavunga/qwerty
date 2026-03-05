@@ -10,8 +10,20 @@ public class InventoryItemData : ScriptableObject
     public int MaxStackSize;
     public GameObject ItemPrefab;
 
+
     public void UseItem()
     {
+        if (DisplayName == "Bandage")
+        {
+            Health playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
+            playerHealth.UseBandage();
+
+        }
+        if(DisplayName == "Energy Drink")
+        {
+            PlayerSprint playerSprint = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerSprint>();
+            playerSprint.UseEnergyDrink();
+        }
         Debug.Log($"Using {DisplayName}");
     }
 }

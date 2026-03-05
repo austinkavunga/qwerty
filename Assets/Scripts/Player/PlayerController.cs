@@ -19,6 +19,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public static bool isRunning;
     [SerializeField] public static bool sprintButtonPressed;
 
+    public float KnockbackForce = 5f;
+    public float KnockbackCounter;
+    public float KnockbackTotalTime;
+
+    public bool KnockbackFromRight;
+
 
 
 
@@ -66,7 +72,22 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move();
+        if (KnockbackCounter <= 0)
+        {
+            Move();
+        }
+        else
+        {
+            if(KnockbackFromRight == true)
+            {
+                rb.linearVelocity = new Vector2(-KnockbackForce, 0);
+            }
+            if (KnockbackFromRight == false)
+            {
+                rb.linearVelocity = new Vector2(KnockbackForce, 0);
+            }
+            KnockbackCounter -= Time.deltaTime;
+        }
     }
 
     private void PlayerInput()
