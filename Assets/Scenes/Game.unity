@@ -14990,6 +14990,7 @@ MonoBehaviour:
   KnockbackCounter: 0
   KnockbackTotalTime: 0.2
   KnockbackFromRight: 0
+  KnockbackFromTop: 0
 --- !u!212 &804706287
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29159,9 +29160,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1485364084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52a1e5714bba38849983d2079a474e51, type: 3}
+  m_Script: {fileID: 11500000, guid: 6dc5521ad352a0a49840a6a1a6dad088, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Health
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   totalHp: 20
   HP: 0
   hpBar: {fileID: 533420572}

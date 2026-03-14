@@ -1,33 +1,30 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class Health : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
     public float totalHp;
     [SerializeField] public float HP;
     public GameObject hpBar;
-    private SceneController sceneController;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Awake()
     {
         HP = totalHp;
-        sceneController = new SceneController();
     }
 
-
+    // Update is called once per frame
     private void Update()
     {
-        if(HP <= 0)
+        if (HP <= 0)
         {
             HP = 0;
-            FindFirstObjectByType<Timer>().SaveTime();
-            sceneController.LoseGame();
+            Destroy(gameObject);
         }
-        if(HP > totalHp)
+        if (HP > totalHp)
         {
             HP = totalHp;
         }
-        if(hpBar != null)
+        if (hpBar != null)
         {
             hpBar.transform.localScale = new Vector2(HP / totalHp, hpBar.transform.localScale.y);
         }
@@ -43,7 +40,8 @@ public class Health : MonoBehaviour
     }
 
     public void TakeDamage(int damage)
-    { 
+    {
         HP -= damage;
     }
 }
+

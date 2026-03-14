@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             playerController.KnockbackCounter = playerController.KnockbackTotalTime;
+
             if(collision.transform.position.x < transform.position.x)
             {
                 playerController.KnockbackFromRight = true;
@@ -36,6 +37,14 @@ public class Enemy : MonoBehaviour
             else if (collision.transform.position.x > transform.position.x)
             {
                 playerController.KnockbackFromRight = false;
+            }
+            else if (collision.transform.position.y < transform.position.y)
+            {
+                playerController.KnockbackFromTop = true;
+            }
+            else if (collision.transform.position.y > transform.position.y)
+            {
+                playerController.KnockbackFromTop = false;
             }
             playerHealth.TakeDamage(damage);
         }
