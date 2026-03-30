@@ -34,11 +34,11 @@ public abstract class InventoryDisplay : MonoBehaviour
         // if player is holding shift ? split stack
         // clicked slot has an item - mouse doesnt have an item - pick up item.
 
-        bool isShiftPressed = Keyboard.current.leftCtrlKey.isPressed;
+        bool isCtrlPressed = Keyboard.current.leftCtrlKey.isPressed;
 
         if (clickedUISlot.AssignedInventorySlot.ItemData != null && mouseInventoryItem.AssignedInventorySlot.ItemData == null)
         {
-            if(isShiftPressed && clickedUISlot.AssignedInventorySlot.SplitStack(out InventorySlot halfStackSlot))
+            if(isCtrlPressed && clickedUISlot.AssignedInventorySlot.SplitStack(out InventorySlot halfStackSlot))
             {
                 mouseInventoryItem.UpdateMouseSlot(halfStackSlot);
                 clickedUISlot.UpdateUISlot();

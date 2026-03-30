@@ -6,6 +6,7 @@ public class PlayerSprint : MonoBehaviour
     public float totalStamina;
     public float stamina;
     public GameObject staminaBar;
+    public SoundEffects soundEffects;
 
     public bool maxStamina;
 
@@ -29,7 +30,7 @@ public class PlayerSprint : MonoBehaviour
         if (PlayerController.sprintButtonPressed == true && stamina > 0)
         {
             PlayerController.isRunning = true;
-            stamina -= 0.5f;
+            stamina -= 0.5f * Time.timeScale;
 
         }
         else
@@ -39,7 +40,7 @@ public class PlayerSprint : MonoBehaviour
         
         if (PlayerController.isRunning == false && stamina < totalStamina)
         {
-            stamina += 0.25f;
+            stamina += 0.25f * Time.timeScale;
         }
 
         if (staminaBar != null)
@@ -51,6 +52,7 @@ public class PlayerSprint : MonoBehaviour
     public void UseEnergyDrink()
     {
         maxStamina = true;
+        soundEffects.EnergyDrinkSound();    
         StartCoroutine(WaitTenSeconds());
     }
 
@@ -58,5 +60,23 @@ public class PlayerSprint : MonoBehaviour
     {
         yield return new WaitForSeconds(10f);
         maxStamina = false;
+    }
+
+    public bool EnoughStaminaToAttack()
+    {
+        if (stamina > 30)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public void UseSword()
+    {
+        stamina -= 15;
+        soundEffects.SwordSound();
     }
 }

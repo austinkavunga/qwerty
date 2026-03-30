@@ -12,6 +12,6 @@ public class ShowFinalTime : MonoBehaviour
         int minutes = Mathf.FloorToInt(time / 60);
         int seconds = Mathf.FloorToInt(time % 60);
 
-        resultText.text = "Time Survived: " + string.Format("{0:00}:{1:00}", minutes, seconds);
+        resultText.text = "Time: " + string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 }

@@ -4,6 +4,7 @@ public class Enemy : MonoBehaviour
 {
     public int damage;
     private Health playerHealth;
+    private EnemyHealth enemyHealth;
 
     public float moveSpeed = 2f;
     Rigidbody2D rb;
@@ -14,9 +15,9 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        //Health.Awake();
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
         rb = GetComponent<Rigidbody2D>();
+        enemyHealth = this.GetComponent<EnemyHealth>();
     }
 
     private void Start()
@@ -47,6 +48,10 @@ public class Enemy : MonoBehaviour
                 playerController.KnockbackFromTop = false;
             }
             playerHealth.TakeDamage(damage);
+        }
+        else if(collision.gameObject.tag == "Sword")
+        {
+            enemyHealth.TakeDamage(5);
         }
     }
 

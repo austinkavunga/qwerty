@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
     [SerializeField] public float HP;
     public GameObject hpBar;
     private SceneController sceneController;
+    public SoundEffects soundEffects;
 
     public void Awake()
     {
@@ -40,10 +41,12 @@ public class Health : MonoBehaviour
     public void UseBandage()
     {
         HP += 15;
+        soundEffects.HealingSound();
     }
 
     public void TakeDamage(int damage)
     { 
         HP -= damage;
+        soundEffects.TakeDamageSound();
     }
 }

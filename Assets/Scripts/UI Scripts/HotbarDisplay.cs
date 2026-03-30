@@ -6,7 +6,10 @@ public class HotbarDisplay : StaticInventoryDisplay
     private int maxIndexSize = 9;
     private int currentIndex = 0;
     private PlayerControls playerControls;
-
+    public Animator myAnimator;
+    public GameObject sword;
+    public PlayerSprint playerSprint;
+    public Interactor playerInteractor;
     private void Awake()
     {
         playerControls = new PlayerControls();
@@ -20,6 +23,8 @@ public class HotbarDisplay : StaticInventoryDisplay
         maxIndexSize = slots.Length - 1;
 
         slots[currentIndex].ToggleHighlight();
+
+        sword.SetActive(false);
     }
 
     protected override void OnEnable()
@@ -75,11 +80,37 @@ public class HotbarDisplay : StaticInventoryDisplay
             ChangeIndex(-1);
         }
 
+        if (slots[currentIndex].AssignedInventorySlot.itemID == 2)
+        {
+            sword.SetActive(true);
+        }
+        else
+        {
+            sword.SetActive(false);
+        }
+
     }
 
     private void UseItem(InputAction.CallbackContext obj)
     {
-        if (slots[currentIndex].AssignedInventorySlot.ItemData != null && slots[currentIndex].AssignedInventorySlot.StackSize >= 1)
+        if (slots[currentIndex].AssignedInventorySlot.itemID == 2)
+        {
+            if(playerSprint.EnoughStaminaToAttack() == true)
+            {
+                myAnimator.SetTrigger("Attack");
+                playerSprint.UseSword();
+            }
+        }
+        else if(slots[currentIndex].AssignedInventorySlot.ItemData.DisplayName.Contains("Key"))
+        {
+            if(playerInteractor.CheckIfKeyIsCorrect(slots[currentIndex].AssignedInventorySlot.ItemData.DisplayName) == true)
+            {
+                slots[currentIndex].AssignedInventorySlot.ItemData.UseItem();
+                slots[currentIndex].AssignedInventorySlot.ClearSlot();
+                slots[currentIndex].UpdateUISlot();
+            }
+        }
+        else if (slots[currentIndex].AssignedInventorySlot.ItemData != null && slots[currentIndex].AssignedInventorySlot.StackSize >= 1)
         {
             if (slots[currentIndex].AssignedInventorySlot.StackSize == 1)
             {

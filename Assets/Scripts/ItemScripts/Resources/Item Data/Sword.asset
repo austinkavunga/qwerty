@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddad6146c494bee488a5cf933e12012f, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
+  ID: 2
+  DisplayName: Sword
+  Description: This is a sword
+  Icon: {fileID: 712035800519618848, guid: fe5334a36fd690b4bb32619a422965cc, type: 3}
+  MaxStackSize: 1
+  ItemPrefab: {fileID: 6309815407844972402, guid: 48561b5a1189da7479c8b2a4f3bee86d, type: 3}

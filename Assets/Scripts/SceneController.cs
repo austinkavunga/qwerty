@@ -12,7 +12,10 @@ public class SceneController : MonoBehaviour
     {
         Application.Quit();
     }
-
+    public void WinGame()
+    {
+        SceneManager.LoadSceneAsync(2);
+    }
     public void LoseGame()
     {
         SceneManager.LoadSceneAsync(3);

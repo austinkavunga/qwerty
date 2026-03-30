@@ -114,7 +114,6 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+        rb.MovePosition(rb.position + movement * (moveSpeed * Time.deltaTime));
     }
 }
-
